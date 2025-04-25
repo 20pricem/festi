@@ -12,7 +12,7 @@ redirect_uri = api_keys['redirect_uri']
 scope = api_keys['scope']
 
 def search_track(sp):
-    top_artists = sp.current_user_top_artists(limit=50, time_range='long_term')  # Adjust limit/time_range as needed
+    top_artists = sp.current_user_top_artists(limit=50, time_range='long_term')
     artist_names = [artist['name'] for artist in top_artists['items']]
     print(artist_names)
     return artist_names

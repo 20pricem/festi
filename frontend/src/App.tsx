@@ -12,7 +12,6 @@ function App() {
   return (
     <div style={{ padding: '20px' }}>
       <h1 style={{ marginBottom: '20px' }}>My Lolla Schedule Generator</h1>
-      <p>Hello, world!</p> {/* Add this temporarily */}
       <button 
         style={{
           backgroundColor: '#319795', 
